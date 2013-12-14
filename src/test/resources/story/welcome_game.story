@@ -2,7 +2,7 @@ Welcome Game
 
 Narrative:
 In order to Start the game
-As a player
+As a challenger
 I want to see a welcome message
 					 
 Scenario:  Welcome Message
