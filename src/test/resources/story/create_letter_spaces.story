@@ -6,7 +6,6 @@ As a player
 I want to see the letter spaces of the word introduced by the challenger
 					 
 Scenario:  Creating the letter spaces
-Given A challenger introduce a word
-When Press the accept button
-Then Another page is shown with the letter spaces of the word introduced by the challenger
-					 
+Given A challenger introduces a word
+When The challenger starts the game
+Then The game shows the introduced Word as hidden characters
