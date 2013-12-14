@@ -15,4 +15,4 @@ Scenario:  Introduce a incorrect letter
 Given The game has started
 When I introduce a letter
 And it doesn't belongs to the word 
-Then The message "Incorrect letter" is shown
+Then The message "Incorrect letter, you can only fail 3 more times" is shown
