@@ -29,7 +29,7 @@ public class WelcomeGameSteps {
 	}
 	
 	
-	@Then("I see a welcome message")
+	@Then("The challenger see a welcome message")
 	public void thenISeeAWelcomeMessage() {
 		System.out.println("then");
 	}

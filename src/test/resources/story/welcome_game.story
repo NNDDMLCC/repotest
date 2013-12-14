@@ -8,4 +8,4 @@ I want to see a welcome message
 Scenario:  Welcome Message
 Given The game has not started
 When The challenger access the system
-Then I see a welcome message
+Then The challenger see a welcome message
