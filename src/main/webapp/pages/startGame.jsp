@@ -12,7 +12,7 @@
 	<div class="hanged-title" id="hanged-title">
 		<h1>hanged</h1>
 	</div>
-	<div class="hanged-message" id="hanged-message">Inserte la palabra a adivinar:</div>
+	<div class="hanged-message" id="hanged-message">¡Hola! Inserte la palabra a adivinar:</div>
 	<div class="hanged-setup-form-div" id="hanged-setup-form-div">
 	  <form id="hanged-setup-form">
 	  <label for="hanged-word">Palabra:</label>

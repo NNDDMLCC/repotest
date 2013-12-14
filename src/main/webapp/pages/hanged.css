@@ -13,29 +13,43 @@ body {
 	font-weight: normal;
 	font-variant: small-caps;
 	height: 37px;
-	display:block;
 }
 #hanged-message {
 	color: #1E497E;
 	font-weight: bold;
-	float: left;
 	width: 330px;
-	height: 20px;
 }
-#hang-result-message {
+#hanged-result-message {
+	float: right;
+	height: 40px;
+}
+#hanged-won, #hanged-lost {
 	float: left;
-	width: 40px;
-	margin-left: -180px;
+	height: 40px;
+}
+#hanged-lost {
+	display: none;
 }
 #hanged-correction {
 	float: right;
-	width: 340px;
+	width: 190px;
+}
+#hanged-correct-word {
+	float: right;
+	width: 190px;
 }
 #hanged-game-form-div,  #hanged-setup-form-div{
-	width: 350px;
-	display: block;
-	background-color: #1E497E;
-	height: 33px;
+	float: left;
 }
 #hanged-setup {
+}
+#hanged-tries {
+	float: right;
+}
+#hanged-submit,
+#hanged-reset {
+	float: left;
+}
+#hanged-back{
+	float: left;
 }
