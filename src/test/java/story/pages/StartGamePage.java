@@ -17,7 +17,7 @@ public class StartGamePage {
 	}
 
 	public String retrieveWelcomeMessage() {
-		return this.webDriver.findElement(By.id("")).getText();
+		return this.webDriver.findElement(By.id("hanged-message")).getText();
 	}
 	
 }
