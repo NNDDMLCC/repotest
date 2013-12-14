@@ -6,5 +6,6 @@ As a player
 I want to see a welcome message
 					 
 Scenario:  Welcome Message
-Given The game is started
+Given The game has not started
+When The challenger access the system
 Then I see a welcome message
