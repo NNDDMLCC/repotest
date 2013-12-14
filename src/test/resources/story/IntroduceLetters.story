@@ -1,16 +1,18 @@
 Introduce Letters
 
 Narrative:
-In order to communicate effectively to the business some functionality
-As a development team
-I want to use Behaviour-Driven Development
+In order to Complete the word
+As a player
+I want to Insert letters one at a time
 					 
-Scenario:  A scenario is a collection of executable steps of different type
-Given step represents a precondition to an event
-When step represents the occurrence of the event
-Then step represents the outcome of the event
+Scenario:  Introduce a correct Letter
+Given The game has started
+When I introduce a letter 
+And it belongs to the word 
+Then The letter is shown in one of the spaces in the correct position within the word
 					 
-Scenario:  Another scenario exploring different combination of events
-Given a precondition  
-When a negative event occurs  
-Then a the outcome should be captured
+Scenario:  Introduce a incorrect letter
+Given The game has started
+When I introduce a letter
+And it doesn't belongs to the word 
+Then The message "Incorrect letter" is shown
