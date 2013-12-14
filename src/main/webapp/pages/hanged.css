@@ -1,0 +1,41 @@
+@charset "utf-8";
+
+body {
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+}
+
+#hanged-title {
+	background-image: url(smartmatic.png);
+	background-repeat: no-repeat;
+	padding-left: 176px;
+	text-transform: uppercase;
+	color: #1E497E;
+	font-weight: normal;
+	font-variant: small-caps;
+	height: 37px;
+	display:block;
+}
+#hanged-message {
+	color: #1E497E;
+	font-weight: bold;
+	float: left;
+	width: 330px;
+	height: 20px;
+}
+#hang-result-message {
+	float: left;
+	width: 40px;
+	margin-left: -180px;
+}
+#hanged-correction {
+	float: right;
+	width: 340px;
+}
+#hanged-game-form-div,  #hanged-setup-form-div{
+	width: 350px;
+	display: block;
+	background-color: #1E497E;
+	height: 33px;
+}
+#hanged-setup {
+}
